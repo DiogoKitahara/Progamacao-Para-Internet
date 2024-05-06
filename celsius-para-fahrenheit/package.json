@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/DiogoKitahara/Progamacao-Para-Internet/issues"
   },
-  "homepage": "https://github.com/DiogoKitahara/Progamacao-Para-Internet#readme"
+  "homepage": "https://github.com/DiogoKitahara/Progamacao-Para-Internet#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
