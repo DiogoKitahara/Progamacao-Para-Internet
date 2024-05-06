@@ -1,0 +1,26 @@
+{
+  "name": "progamacao-para-internet",
+  "version": "1.0.0",
+  "description": "aula ao vivo numero 1 - PPI - ADS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiogoKitahara/Progamacao-Para-Internet.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "ppi"
+  ],
+  "author": "Diogo Kitahara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiogoKitahara/Progamacao-Para-Internet/issues"
+  },
+  "homepage": "https://github.com/DiogoKitahara/Progamacao-Para-Internet#readme"
+}
