@@ -7,7 +7,7 @@ const app = express(); //
 
 // requisicao vem da internet e a resposta é enviada para a Internet para quem fez a requisicao
 function retornaPaginaInicial(requisicao, resposta) {
-    resposta.write('<!DOCTYPE html');
+    resposta.write('<!DOCTYPE html>');
     resposta.write('<html>');
     resposta.write('<head>');
     resposta.write('<meta charset = "utf-8">');

@@ -1,0 +1,24 @@
+{
+  "name": "tabuada",
+  "version": "1.0.0",
+  "description": "Pagina que mostra a tabuada de um determinado valor e a quantidade de multiplicacoes de acordo com as informacoes inseridas na url",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiogoKitahara/Progamacao-Para-Internet.git"
+  },
+  "author": "Diogo Kitahara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiogoKitahara/Progamacao-Para-Internet/issues"
+  },
+  "homepage": "https://github.com/DiogoKitahara/Progamacao-Para-Internet#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
