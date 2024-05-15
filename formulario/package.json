@@ -1,0 +1,33 @@
+{
+  "name": "formulario",
+  "version": "1.0.0",
+  "description": "Aplicacao web capaz de processar os dados de um formulario html",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiogoKitahara/Progamacao-Para-Internet.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "HTTP",
+    "GET",
+    "programacao",
+    "cliente",
+    "servidor"
+  ],
+  "author": "Diogo Kitahara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiogoKitahara/Progamacao-Para-Internet/issues"
+  },
+  "homepage": "https://github.com/DiogoKitahara/Progamacao-Para-Internet#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
