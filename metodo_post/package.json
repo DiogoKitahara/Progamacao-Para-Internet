@@ -1,0 +1,21 @@
+{
+  "name": "metodo_post",
+  "version": "1.0.0",
+  "description": "post e validacao",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTTP",
+    "POST",
+    "validacao"
+  ],
+  "author": "Diogo Kitahara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

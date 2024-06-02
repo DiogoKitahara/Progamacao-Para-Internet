@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exames</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="componentes.css">
+
+    <link rel="stylesheet" href="icon/icofont.min.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+
+<body>
+    <main class="container d-flex flex-column justify-content-center align-items-center">
+        <div class="card w-50 p-4 border-0">
+            <div class="card-body text-center">
+                <form action="">
+                    <h1 class="text-center mb-5">Cadastre-se</h1>
+                    <!-- Name input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                            data-sb-validations="required" data-sb-can-submit="no">
+                        <label for="name">Nome Completo</label>
+                        <div class="invalid-feedback" data-sb-feedback="name:required">É necessario um nome.</div>
+                    </div>
+                    <!-- Email address input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                            data-sb-validations="required,email" data-sb-can-submit="no">
+                        <label for="email">Email</label>
+                        <div class="invalid-feedback" data-sb-feedback="email:required">É necessario um Email.</div>
+                        <div class="invalid-feedback" data-sb-feedback="email:email">Esse Email não é valido.</div>
+                    </div>
+                    <!-- Phone number input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                            data-sb-validations="required" data-sb-can-submit="no">
+                        <label for="phone">Numero de telefone</label>
+                        <div class="invalid-feedback" data-sb-feedback="phone:required">Telefone obrigatorio.
+                        </div>
+                    </div>
+                    <!-- input date -->
+                    <div class="form-floating mb-4">
+                        <input type="date" class="form-control" id="floatingInput">
+                        <label for="floatingInput">Data de nascimento</label>
+                      </div>
+                    <!-- input genrero -->
+                    <div class=" mb-5">
+                        <p class="text-start" style="font-family: sans-serif; font-weight: bold;">Selecione seu Genêro:</p>
+                        <div class="form-check form-check text-start">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Masculino</label>
+                        </div>
+                        <div class="form-check form-check text-start">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Feminino</label>
+                        </div>
+                        <div class="form-check form-check text-start">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                            <label class="form-check-label" for="inlineRadio3">Outro</label>
+                        </div>
+                        <div class="form-check form-check text-start">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                            <label class="form-check-label" for="inlineRadio4">Prefiro não irformar</label>
+                        </div>
+                    </div>  
+                    <!-- Endereço input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="endereco" type="text" placeholder="Rua ...., n 0"
+                            data-sb-validations="required" data-sb-can-submit="no">
+                        <label for="endereco">Endereço</label>
+                        <div class="invalid-feedback">Por favor, insira seu Endereço.</div>
+                    </div>
+                    <!-- input cidade -->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id="cidade" type="text" placeholder=" "
+                            data-sb-validations="required" data-sb-can-submit="no">
+                        <label for="cidade">Cidade</label>
+                        <div class="invalid-feedback">Por favor, insira sua Cidade.</div>
+                    </div>
+                    <div class="row">
+                        <!-- input estado -->
+                        <div class="form-floating mb-3 col-12 col-md-6">
+                            <input class="form-control" id="estado" type="text" placeholder=" "
+                            data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="estado">Estado</label>
+                            <div class="invalid-feedback">É necessario um estado</div>
+                        </div>
+                        <!-- input CEP -->
+                        <div class="form-floating mb-3 col-12 col-md-6">
+                            <input class="form-control" id="cep" type="text" placeholder=" "
+                            data-sb-validations="required" data-sb-can-submit="no">
+                            <label for="cep">CEP</label>
+                            <div class="invalid-feedback">É necessario um CEP</div>
+                        </div>
+                    </div>
+                    <!-- input password --> 
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Senha</label>
+                    </div>
+                    <!-- input confirm password -->
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Confirmar senha</label>
+                    </div>
+                    <div class="form-group mb-5 text-start">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="tipo_login" id="tipo_login_medico"
+                                value="option1">
+                            <label class="form-check-label text-dark" for="tipo_login_medico">
+                                Li e concordo com os termos e condições
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group mb-4">
+                        <a href="login.html" class="btn btn-outline-primary w-50">Cadastre-se</a>
+                    </div>
+                    <div class="form-group">
+                        <a href="login.html" class="small text-decoration-none">Já tem uma conta? Clique aqui</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "progamacao-para-internet",
+  "version": "1.0.0",
+  "description": "Aula 2 - Manipulacao de dados de formulario html",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "HTTP",
+    "GET",
+    "programacao",
+    "cliente",
+    "servidor"
+  ],
+  "author": "Diogo Kitahara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
